@@ -67,12 +67,13 @@ Angular 1.2.0 Animation
 -----------------------------------------
    begin normal css stuff
 */
-ul.abn-tree li.abn-tree-row {  
+ul.abn-tree li.abn-tree-row {
   padding: 0px;
   margin:0px;
 }
 
 ul.abn-tree li.abn-tree-row a {
+  display: inline-block;
   padding: 3px 10px;
 }
 
@@ -119,7 +120,45 @@ ul.nav.nav-list.abn-tree .level-9 .indented {
   position: relative;
   left: 160px;
 }
+ul.nav.abn-tree input {
+  display: inline!important;
+  float: left;
+  width: 20px;
+}
 
-p {
-  color: red;
+ul.nav.abn-tree .level-1 input {
+  position: relative;
+  left: 0px;
+}
+ul.nav.abn-tree .level-2 input {
+  position: relative;
+  left: 20px;
+}
+ul.nav.abn-tree .level-3 input {
+  position: relative;
+  left: 40px;
+}
+ul.nav.abn-tree .level-4 input {
+  position: relative;
+  left: 80px;
+}
+ul.nav.abn-tree .level-5 input {
+  position: relative;
+  left: 100px;
+}
+ul.nav.abn-tree .level-6 input {
+  position: relative;
+  left: 120px;
+}
+ul.nav.nav-list.abn-tree .level-7 input {
+  position: relative;
+  left: 140px;
+}
+ul.nav.nav-list.abn-tree .level-8 input {
+  position: relative;
+  left: 160px;
+}
+ul.nav.nav-list.abn-tree .level-9 input {
+  position: relative;
+  left: 180px;
 }
