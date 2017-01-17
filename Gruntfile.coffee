@@ -113,7 +113,7 @@ module.exports = (grunt)->
   grunt.loadNpmTasks 'grunt-string-replace'
 
 
-  grunt.registerTask 'default', ['jade','string-replace','coffee','watch']
+  grunt.registerTask 'default', ['jade','string-replace','coffee']
 
 
 
